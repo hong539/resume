@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1680246350 "yh_resume.xdv" "yh_resume.pdf" "yh_resume" 1680246350 0
-  "yh_resume.xdv" 1680246349 7888 34dc54a0fe87653432ffb657305dc280 "xelatex"
+["xdvipdfmx"] 1680317484 "yh_resume.xdv" "yh_resume.pdf" "yh_resume" 1680317484 0
+  "yh_resume.xdv" 1680317484 8108 38d821bd3219c63e1dbcdca61cb21658 "xelatex"
   (generated)
   "yh_resume.pdf"
   (rewritten before read)
-["xelatex"] 1680246347 "d:/side_projects/resume/src/yh_resume.tex" "yh_resume.xdv" "yh_resume" 1680246350 0
+["xelatex"] 1680317482 "d:/side_projects/resume/src/yh_resume.tex" "yh_resume.xdv" "yh_resume" 1680317484 0
   "C:/Users/hong/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1674889779 36439136 a5a11e60757ef66236d89b0574fa3dbf ""
   "C:/Users/hong/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136743454 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/hong/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -106,10 +106,10 @@
   "C:/Users/hong/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/hong/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/hong/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/side_projects/resume/src/yh_resume.tex" 1680246347 7673 192d61cb1e3991259cf601f53c747cb5 ""
-  "yh_resume.aux" 1680246349 1021 873d5e35b244146e80172daae0a5a477 "xelatex"
-  "yh_resume.out" 1680246349 337 e4a20694ab785100e26c1aefba388dce "xelatex"
-  "yh_resume.tex" 1680246347 7673 192d61cb1e3991259cf601f53c747cb5 ""
+  "d:/side_projects/resume/src/yh_resume.tex" 1680317481 7843 2a40902669efeca7c1650e10731bb202 ""
+  "yh_resume.aux" 1680317484 1021 873d5e35b244146e80172daae0a5a477 "xelatex"
+  "yh_resume.out" 1680317484 337 e4a20694ab785100e26c1aefba388dce "xelatex"
+  "yh_resume.tex" 1680317481 7843 2a40902669efeca7c1650e10731bb202 ""
   (generated)
   "yh_resume.aux"
   "yh_resume.log"
