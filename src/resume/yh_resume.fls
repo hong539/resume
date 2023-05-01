@@ -1,6 +1,6 @@
-PWD d:\side_projects\resume\src
+PWD d:\side_projects\resume\src\resume
 INPUT C:\Users\hong\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT d:\side_projects\resume\src\yh_resume.tex
+INPUT d:\side_projects\resume\src\resume\yh_resume.tex
 OUTPUT yh_resume.log
 INPUT C:\Users\hong\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\hong\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
