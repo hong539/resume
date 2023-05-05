@@ -6,8 +6,11 @@
 *.fls
 *.out
 *.toc
+*.fdb_latexmk
 *.fmt
 *.fot
 *.cb
 *.cb2
 .*.lb
+*.synctex.gz
+*.xdv
