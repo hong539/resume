@@ -7,7 +7,7 @@ LATEXMK_FLAGS = -pdf -pdflatex="pdflatex -interaction=nonstopmode"
 all: yh_resume.pdf
 
 %.pdf: %.tex
-    $(LATEXMK) $(LATEXMK_FLAGS) $<
+	$(LATEXMK)	$(LATEXMK_FLAGS)	$<
 
 clean:
-	$(LATEXMK) -C
+	rm -f *.aux *.lof *.log *.lot *.fls *.out *.toc *.fdb_latexmk *.fmt *.fot *.cb *.cb2 .*.lb *.synctex.gz *.xdv *.dvi
