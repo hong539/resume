@@ -6,7 +6,7 @@ My resume to request a job.
 
 * [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
 
-* Install the prerequisites
+* Install the CLI prerequisites
 
 ```shell
 # Debian / Ubuntu
@@ -31,3 +31,6 @@ latexmk --version
 cd src/resume/
 latexmk yh_resume.tex
 ```
+
+* using with vscode extensions
+    * LaTeX Workshop
