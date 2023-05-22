@@ -1,3 +1,4 @@
+vpath %.tex src/resume/
 LATEXMK = latexmk
 LATEXMK_FLAGS = -pdf -pdflatex="pdflatex -interaction=nonstopmode"
 
@@ -9,4 +10,4 @@ all: yh_resume.pdf
     $(LATEXMK) $(LATEXMK_FLAGS) $<
 
 clean:
-    $(LATEXMK) -C
+	$(LATEXMK) -C
