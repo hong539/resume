@@ -7,20 +7,27 @@ My resume to request a job.
 * [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
 
 * Install the prerequisites
-  * [LaTeX](https://www.latex-project.org/get/)
-  * Windows
-    * MiKTeX
-  * Linux
-    * TeX Live
 
 ```shell
 # Debian / Ubuntu
-$ sudo apt install make texlive-full
+sudo apt install make texlive-full
 
 # Arch / Manjaro
-$ sudo pacman -S make texlive-most texlive-bin
+sudo pacman -Syy
+sudo pacman -S make texlive-most texlive-bin
 
 # macOS
-$ brew install mactex
-$ sudo tlmgr update --self
+brew install mactex
+sudo tlmgr update --self
+```
+
+* build *.tex to output pdf with latexmk
+
+```shell
+#check latexmk installed or not
+which latexmk
+latexmk --version
+
+cd src/resume/
+latexmk yh_resume.tex
 ```
