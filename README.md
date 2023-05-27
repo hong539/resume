@@ -32,5 +32,14 @@ cd src/resume/
 latexmk yh_resume.tex
 ```
 
+* build *.tex to output pdf with make
+
+```shell
+#build pdf from tex source codes
+make all
+#rm extra files when bulding tex project
+make clean
+```
+
 * Or building with vscode extensions
     * LaTeX Workshop
