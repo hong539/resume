@@ -1,7 +1,7 @@
 vpath %.tex src/resume/
 LATEXMK = latexmk
 LATEXMK_FLAGS = -pdf -pdflatex="pdflatex -interaction=nonstopmode"
-DESTDIR = build
+DESTDIR = src
 
 .PHONY: all clean
 

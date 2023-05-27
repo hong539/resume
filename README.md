@@ -32,5 +32,5 @@ cd src/resume/
 latexmk yh_resume.tex
 ```
 
-* using with vscode extensions
+* Or building with vscode extensions
     * LaTeX Workshop
