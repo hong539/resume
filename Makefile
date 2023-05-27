@@ -1,4 +1,4 @@
-vpath %.tex src/resume/
+vpath %.tex src/
 LATEXMK = latexmk
 LATEXMK_FLAGS = -pdf -pdflatex="pdflatex -interaction=nonstopmode"
 DESTDIR = src
