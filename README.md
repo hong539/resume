@@ -21,6 +21,14 @@ brew install mactex
 sudo tlmgr update --self
 ```
 
+* [Python: Usage with pyenv+poetry](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/python#usage-with-pyenvpoetry)
+
+* parser with Python
+
+```shell
+poetry add pypdf
+```
+
 * build *.tex to output pdf with latexmk
 
 ```shell
