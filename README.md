@@ -27,6 +27,8 @@ sudo tlmgr update --self
 ```
 
 * [Python: Usage with pyenv+poetry](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/python#usage-with-pyenvpoetry)
+* [how-to-extract-text-from-a-pdf-file](https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file)
+* [pypdf](https://github.com/py-pdf/pypdf)
 
 * parser with Python
 
