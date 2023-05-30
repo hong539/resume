@@ -2,6 +2,11 @@
 My resume to request a job.
 
 
+## to do list
+
+* parse pdf with Python
+* pipe text to html with some generator or render to outout html and related files
+
 ## quick start
 
 * [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
