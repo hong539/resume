@@ -32,6 +32,12 @@ cd src/resume/
 latexmk yh_resume.tex
 ```
 
+* build *.tex to output html with htlatex
+
+```shell
+htlatex file.tex "xhtml,html5,mathml,charset=utf-8" " -cunihtf -utf8"
+```
+
 * build *.tex to output pdf with make
 
 ```shell
