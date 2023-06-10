@@ -81,4 +81,7 @@ podman run -ti --rm -v ./src:/pdf -w /pdf docker.io/pdf2htmlex/pdf2htmlex:0.18.8
 # If this causes problems, reconfigure --without-iconv.
 # Preprocessing: 2/2
 # Working: 2/2
+
+#add this for My github pages icon
+<link rel="icon" type="image/x-icon" href="../images/ico/favicon.ico">
 ```
