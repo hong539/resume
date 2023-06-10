@@ -71,5 +71,14 @@ make clean
 * [How to use this docker container to convert pdf file to html](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Download-Docker-Image#how-to-use-this-docker-container-to-convert-pdf-file-to-html)
 
 ```shell
-docker run -ti --rm -v ~/pdf:/pdf -w /pdf pdf2htmlex/pdf2htmlex --zoom 1.3 test.pdf
+#with docker
+docker run -ti --rm -v ~/src:/pdf -w /pdf pdf2htmlex/pdf2htmlex --zoom 1.3 yh_resume.pdf
+
+#with podman
+podman run -ti --rm -v ./src:/pdf -w /pdf docker.io/pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 yh_resume.pdf
+
+# Internal Error: Your version of iconv does not support the "Mac Roman" encoding.
+# If this causes problems, reconfigure --without-iconv.
+# Preprocessing: 2/2
+# Working: 2/2
 ```
