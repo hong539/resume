@@ -4,9 +4,10 @@ My resume to request a job.
 
 ## to do list
 
-* pdf2htmlEX (generate *.html from *.pdf)
+~~* pdf2htmlEX (generate *.html from *.pdf)~~
 * parse pdf with Python
-* pipe text to html with some generator or render to outout html and related files
+~~* pipe text to html with some generator or render to outout html and related files~~
+* automation for generating *.html, add html tags, cp to github pages
 
 ## quick start
 
