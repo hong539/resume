@@ -73,7 +73,7 @@ make clean
 
 ```shell
 #with docker
-docker run -ti --rm -v ~/src:/pdf -w /pdf pdf2htmlex/pdf2htmlex --zoom 1.3 yh_resume.pdf
+docker run -ti --rm -v ./src:/pdf -w /pdf pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 yh_resume.pdf
 
 #with podman
 podman run -ti --rm -v ./src:/pdf -w /pdf docker.io/pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 yh_resume.pdf
