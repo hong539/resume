@@ -1,9 +1,15 @@
 # resume
 
-My resume to request a job.
+My resume generated from *.tex file to request a job.
+
+## Guides/Tips..etc
+
+* LaTex «Lah-tech» or «Lay-tech»
+* [LaTex project/About](https://www.latex-project.org/about/)
 
 ## to do list
 
+* How to show projects date?
 ~~* pdf2htmlEX (generate *.html from *.pdf)~~
 * parse pdf with Python
 ~~* pipe text to html with some generator or render to outout html and related files~~
