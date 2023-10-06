@@ -6,6 +6,8 @@ My resume generated from *.tex file to request a job.
 
 * LaTex «Lah-tech» or «Lay-tech»
 * [LaTex project/About](https://www.latex-project.org/about/)
+* [pdf2htmlEX/wiki/Quick-Start](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Quick-Start)
+* [pdf2htmlEX/wiki/Command-Line-Options](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Command-Line-Options)
 
 ## to do list
 
