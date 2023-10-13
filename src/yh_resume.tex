@@ -151,8 +151,9 @@
 
   \resumeSubheading
   {Systems architecture}{Jan. 2021 -- Present}
-  {Web System design}{}
+  {Web Services design}{}
   \resumeItemListStart
+    \resumeItem{sauce man}  
     \resumeItem{local-library-website}
     \resumeItem{Dragon}        
     \resumeItem{boce-crawler}    
@@ -194,11 +195,24 @@
 \section{PROJECTS}
 
     \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{sauce man}} {May. 2023 -- Present}
+        \resumeItemListStart
+          \resumeItem{Design a discord bot \textbf{sauce man} with \textbf{Python} coding, \textbf{an API wrapper discord.py}, \textbf{a PostgreSQL}}
+          \resumeItem{Setup My development environment with \textbf{ProxmoxVE/Arch Linux/pyenv/pipenv} and running a sauce man bot under My homelab infrastructure}
+          \resumeItem{ \textbf{Languages \& Tools}: discord developer portal, Proxmox Virtual Environment, Arch Linux, Python, discord.py, pandas, sqlalchemy, PostgreSQL, Docker engine}
+        \resumeItemListEnd          
+    \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{local-library-website}} {Jun. 2023 -- Present}
           \resumeItemListStart
-            \resumeItem{Building a local-library-website with \textbf{the Python Django Webframework}}
-            \resumeItem{ \textbf{Languages \& Tools}: Proxmox Virtual Environment, Arch Linux, Python, Django, JavaScript/HTML/CSS, PostgreSQL, SQLite}
+            \resumeItem{Extend My skills with doing \textbf{MDN Web Docs: Django Tutorial: The Local Library website}}
+            \resumeItem{Setup My development environment with \textbf{ProxmoxVE/Arch Linux/pyenv/poetry} and running a local-library-website with \textbf{Python Django Webframework} under My homelab infrastructure}
+            \resumeItem{Research what are \textbf{WSGI/ASGI/Gunicorn} when deploy a Django project}
+            \resumeItem{Will add some styles with \textbf{tailwindcss} to make this website Beautiful in the future}
+            \resumeItem{ \textbf{Languages \& Tools}: Proxmox Virtual Environment, Arch Linux, Python, Django, Gunicorn, WSGI, ASGI, JavaScript/HTML/CSS, PostgreSQL, SQLite, Docker engine, Tailwind CSS}
           \resumeItemListEnd          
     \resumeSubHeadingListEnd
 
@@ -207,19 +221,19 @@
     \resumeProjectHeading
         {\textbf{Dragon}} {Dec. 2022 -- Apr. 2023}
         \resumeItemListStart
+          \resumeItem{The main purpose is that "One live stream from clent But push multiple destinations from server-side"}
           \resumeItem{Building a system based on distributed model with multi k8s Clusters which provides \textbf{streaming services}}
-          \resumeItem{Based on an open source project: \textbf{SRS(Simple Realtime Server),}}we create backend-API with golang as Webhook to extend the SRS server features and frontend interface via React + Next.js.
-          \resumeItem{ \textbf{Languages \& Tools}: Kubernetes, k6, kubectl-graph, Tekton, C++, ffmpeg, Golang, go-callvis, go-swagger, Alibaba Cloud, GCP, CDN network, JavaScript, Node.js}
+          \resumeItem{Based on an open source project: \textbf{SRS(Simple Realtime Server),}}we design backend-API with golang as Webhook to extend the SRS server features and frontend interface via React + Next.js.
+          \resumeItem{ \textbf{Languages \& Tools}: Kubernetes, k6, kubectl-graph, Tekton, C++, ffmpeg, Golang, go-callvis, go-swagger, Alibaba Cloud, GCP, CDN network, JavaScript, Node.js, Docker engine}
         \resumeItemListEnd          
     \resumeSubHeadingListEnd
 
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
-          \resumeItemListStart
-            \resumeItem{Building a \textbf{web-service monitor/alarm system} such as Datadog,UptimeRobot...etc}
-            \resumeItem{Because of the data loss of our third-party monitoring API, I develope a \textbf{backend service} to collect data on third-party network monitor system and push those data to our MariaDB for grafana datasource.}
-            \resumeItem{ \textbf{Languages \& Tools}: Python, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, MariaDB, crontab, Grafana}
+          \resumeItemListStart            
+            \resumeItem{Because of the data loss of our third-party monitoring API when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
+            \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
           \resumeItemListEnd          
     \resumeSubHeadingListEnd
 

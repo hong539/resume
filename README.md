@@ -94,4 +94,10 @@ podman run -ti --rm -v ./src:/pdf -w /pdf docker.io/pdf2htmlex/pdf2htmlex:0.18.8
 #add this for My github pages icon
 <link rel="icon" type="image/x-icon" href="./favicon.ico">
 <link rel="icon" type="image/x-icon" href="../images/ico/favicon.ico">
+
+#build with bash shell scripts
+bash ./scripts/build.sh
+
+#run with bash shell scripts
+bash ./scripts/start.sh
 ```
