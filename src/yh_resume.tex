@@ -150,13 +150,13 @@
   \resumeSubHeadingListStart
 
   \resumeSubheading
-  {Systems architecture}{Jan. 2021 -- Present}
-  {Web Services design}{}
+  {Site Reliability Engineering (SRE)/DevOps/Cloud engineering}{Jan. 2021 -- April. 2023}
+  {Cloud Computing Operation}{}  
   \resumeItemListStart
-    \resumeItem{sauce man}  
-    \resumeItem{local-library-website}
-    \resumeItem{Dragon}        
-    \resumeItem{boce-crawler}    
+    \resumeItem{Amazon Web Services(AWS)}
+    \resumeItem{Google Cloud Platform(GCP)}    
+    \resumeItem{Alibaba Cloud}
+    \resumeItem{CloudFlare}    
   \resumeItemListEnd
 
   {System migration and refactoring}{}
@@ -167,25 +167,18 @@
     \resumeItem{Backup for Infrastructure}
   \resumeItemListEnd
 
-  \resumeSubheading
-  {Cloud Computing}{Jan. 2021 -- Present}
-  {Operation}{}      
-  \resumeItemListStart
-    \resumeItem{Amazon Web Services(AWS)}
-    \resumeItem{Google Cloud Platform(GCP)}    
-    \resumeItem{Alibaba Cloud}
-    \resumeItem{CloudFlare}
-    
-  \resumeItemListEnd  
-
-  \resumeSubheading
-  {Kubernetes}{Jan. 2022 -- Present}
+  {Kubernetes}{}
   {Admin}{}
   \resumeItemListStart
     \resumeItem{Maintain operations for \textbf{k8s Cluster} }
     \resumeItem{Troubleshooting: \textbf{pod crashloopbackoff, network, I/O problems(Race Condition, OOM Out of memory)...etc}}
     \resumeItem{Subsystem research and deploy: \textbf{Ingress-NGINX, Cert-manager, Prometheus, Grafana, Redis, RabbitMQ, Elasticsearch, Fluentbit, Kibana, Gitlab runner, Tekton, KubeSphere, EMQX, Nacos, RocketMQ, ZooKeeper}}
-  \resumeItemListEnd                 
+  \resumeItemListEnd 
+  {Web Services DevOps}{}
+  \resumeItemListStart
+    \resumeItem{boce-crawler}
+    \resumeItem{Dragon}   
+  \resumeItemListEnd  
 
   \resumeSubHeadingListEnd
 
@@ -195,27 +188,13 @@
 \section{PROJECTS}
 
     \resumeSubHeadingListStart
-    \resumeProjectHeading
-        {\textbf{sauce man}} {May. 2023 -- Present}
-        \resumeItemListStart
-          \resumeItem{Design a discord bot \textbf{sauce man} with \textbf{Python} coding, \textbf{an API wrapper discord.py}, \textbf{a PostgreSQL}}
-          \resumeItem{Setup My development environment with \textbf{ProxmoxVE/Arch Linux/pyenv/pipenv} and running a sauce man bot under My homelab infrastructure}
-          \resumeItem{ \textbf{Languages \& Tools}: discord developer portal, Proxmox Virtual Environment, Arch Linux, Python, discord.py, pandas, sqlalchemy, PostgreSQL, podman}
-        \resumeItemListEnd          
-    \resumeSubHeadingListEnd
-
-    \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{local-library-website}} {Jun. 2023 -- Present}
-          \resumeItemListStart
-            \resumeItem{Extend My skills with doing \textbf{MDN Web Docs: Django Tutorial: The Local Library website}}
-            \resumeItem{Setup My development environment with \textbf{ProxmoxVE/Arch Linux/pyenv/poetry} and running a local-library-website with \textbf{Python Django Webframework} under My homelab infrastructure}
-            \resumeItem{Research what are \textbf{WSGI/ASGI/Gunicorn} when deploy a Django project}
-            \resumeItem{Will add some styles with \textbf{tailwindcss} to make this website Beautiful in the future}
-            \resumeItem{ \textbf{Languages \& Tools}: Proxmox Virtual Environment, Arch Linux, Python, Django, Gunicorn, WSGI, ASGI, JavaScript/HTML/CSS, PostgreSQL, SQLite, Docker engine, Tailwind CSS}
+          {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
+          \resumeItemListStart            
+            \resumeItem{Because of the data loss of our third-party monitoring API when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
+            \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
           \resumeItemListEnd          
     \resumeSubHeadingListEnd
-
 
     \resumeSubHeadingListStart
     \resumeProjectHeading
@@ -226,15 +205,6 @@
           \resumeItem{Based on an open source project: \textbf{SRS(Simple Realtime Server),}}we design backend-API with golang as Webhook to extend the SRS server features and frontend interface via React + Next.js.
           \resumeItem{ \textbf{Languages \& Tools}: Kubernetes, k6, kubectl-graph, Tekton, C++, ffmpeg, Golang, go-callvis, go-swagger, Alibaba Cloud, GCP, CDN network, JavaScript, Node.js, Docker engine}
         \resumeItemListEnd          
-    \resumeSubHeadingListEnd
-
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
-          \resumeItemListStart            
-            \resumeItem{Because of the data loss of our third-party monitoring API when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
-            \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
-          \resumeItemListEnd          
     \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
