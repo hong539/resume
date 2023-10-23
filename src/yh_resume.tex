@@ -153,16 +153,19 @@
   {Site Reliability Engineering (SRE)/DevOps/Cloud engineering}{Jan. 2021 -- April. 2023}
   {Cloud Computing Operation}{}  
   \resumeItemListStart
-    \resumeItem{Amazon Web Services(AWS)}
-    \resumeItem{Google Cloud Platform(GCP)}    
-    \resumeItem{Alibaba Cloud}
-    \resumeItem{CloudFlare}    
+    \resumeItem{Amazon Web Services(AWS): VPC/VPC Peering/ELB/EC2/RDS/S3/ECR/EKS/ElastiCache for Redis...etc}
+    \resumeItem{Google Cloud Platform(GCP): VPC/Cloud NAT/Cloud Load Balancing/Compute Engine/GKE/Artifact Registry/Cloud Storage/Cloud SQL/Memorystore for Redis...etc}    
+    \resumeItem{Alibaba Cloud: VPC/EIP/SLB/CDN/DCDN/ECS/ACK/ACR/EBS/OSS/ApsaraDB RDS/DTS/ApsaraMQ for RocketMQ/ApsaraVideo Live...etc}
+    \resumeItem{CloudFlare: DNS/WAF/Tunnel...etc}
+    \resumeItem{MongoDB Atlas}
   \resumeItemListEnd
 
-  {System migration and refactoring}{}
+  {System Operation/Migration/Refactoring}{}
   \resumeItemListStart
-    \resumeItem{Deploy architecture from Java spring microservices to Kubernetes}
-    \resumeItem{Deploy architecture from VMs to Dcoker/Kubernetes}
+    \resumeItem{Maintain system documentation with Google Docs/Google Drive/Markdown/GitLab/Mermaid/Backstage}
+    \resumeItem{Create CI/CD pipelines based on GitLab runner/Tekton in Kubernetes cluster}
+    \resumeItem{Migrate deploy architecture from node.js/php-fpm/Java spring microservices to Kubernetes}
+    \resumeItem{Migrate deploy architecture from VMs to Docker/Kubernetes}
     \resumeItem{Migration/Refactoring Infrastructure from Alibaba Cloud to AWS}
     \resumeItem{Backup for Infrastructure}
   \resumeItemListEnd
@@ -172,12 +175,12 @@
   \resumeItemListStart
     \resumeItem{Maintain operations for \textbf{k8s Cluster} }
     \resumeItem{Troubleshooting: \textbf{pod crashloopbackoff, network, I/O problems(Race Condition, OOM Out of memory)...etc}}
-    \resumeItem{Subsystem research and deploy: \textbf{Ingress-NGINX, Cert-manager, Prometheus, Grafana, Redis, RabbitMQ, Elasticsearch, Fluentbit, Kibana, Gitlab runner, Tekton, KubeSphere, EMQX, Nacos, RocketMQ, ZooKeeper}}
+    \resumeItem{Subsystem research and deploy: \textbf{Ingress-NGINX, Cert-manager, Prometheus, Grafana, Redis, RabbitMQ, Elasticsearch, Fluentbit, ElastAlert 2, Gitlab runner, Tekton, KubeSphere, EMQX, Nacos, RocketMQ, ZooKeeper, ProxySQL, }}
   \resumeItemListEnd 
-  {Web Services DevOps}{}
+  {Web Services Development}{}
   \resumeItemListStart
-    \resumeItem{boce-crawler}
-    \resumeItem{Dragon}   
+    \resumeItem{boce-crawler: \textbf{Linux crontab task} with \textbf{Python} script running \textbf{headless-browser automation}}
+    \resumeItem{Dragon: \textbf{streaming platform} based on \textbf{SRS project and Kubernetes}}
   \resumeItemListEnd  
 
   \resumeSubHeadingListEnd
@@ -191,7 +194,7 @@
       \resumeProjectHeading
           {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
           \resumeItemListStart            
-            \resumeItem{Because of the data loss of our third-party monitoring API when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
+            \resumeItem{Because of the \textbf{data loss of our third-party monitoring API}  when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
             \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
           \resumeItemListEnd          
     \resumeSubHeadingListEnd
