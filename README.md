@@ -8,6 +8,7 @@ My resume generated from *.tex file to request a job.
 * [LaTex project/About](https://www.latex-project.org/about/)
 * [pdf2htmlEX/wiki/Quick-Start](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Quick-Start)
 * [pdf2htmlEX/wiki/Command-Line-Options](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Command-Line-Options)
+* [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
 
 ## to do list
 
@@ -21,7 +22,6 @@ My resume generated from *.tex file to request a job.
 
 * generate *.pdf from *.tex
 * generate *.html from *.pdf
-* [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
 * Install the CLI prerequisites
 
 ```shell
@@ -94,6 +94,10 @@ podman run -ti --rm -v ./src:/pdf -w /pdf docker.io/pdf2htmlex/pdf2htmlex:0.18.8
 #add this for My github pages icon
 <link rel="icon" type="image/x-icon" href="./favicon.ico">
 <link rel="icon" type="image/x-icon" href="../images/ico/favicon.ico">
+
+#edit *.tex with vscode and extension:LaTeX Workshop
+vscode yh_resume.tex
+vscode yh_resume.pdf
 
 #build with bash shell scripts
 bash ./scripts/build.sh
