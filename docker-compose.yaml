@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    resume:
+        hostname: resume
+        container_name: resume
+        image: focal1119/resume:prod
+        restart: always
+        # entrypoint: tail -f /dev/null
+        ports:
+          - "8001:80"
+        # network_mode: "host"
