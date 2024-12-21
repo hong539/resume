@@ -20,9 +20,13 @@ My resume generated from *.tex file to request a job.
 
 ## quick start
 
+* Install the CLI prerequisites
 * generate *.pdf from *.tex
 * generate *.html from *.pdf
-* Install the CLI prerequisites
+
+```shell
+bash scripts/pipelines.sh
+```
 
 ```shell
 # Debian / Ubuntu
