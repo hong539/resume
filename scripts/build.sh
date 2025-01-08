@@ -1,7 +1,5 @@
-#!/bin/bash
-
-# uncomment for debug
-# set -x
+#!/usr/bin/env bash
+set -euxo pipefail
 
 echo "Setup BASE_DIR..."
 
@@ -15,11 +13,11 @@ select opt in "${options[@]}"
 do
     case $opt in
         "separated files")            
-            docker run -ti --rm -v $BASE_DIR:/pdf -w /pdf pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 --embed cfijo --dest-dir output ./src/yh_resume.pdf
+            docker run -i --rm -v $BASE_DIR:/pdf -w /pdf pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 --embed cfijo --dest-dir output ./src/yh_resume.pdf
             break
             ;;
         "all in one")
-            docker run -ti --rm -v $BASE_DIR:/pdf -w /pdf pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 --dest-dir output ./src/yh_resume.pdf index.html
+            docker run -i --rm -v $BASE_DIR:/pdf -w /pdf pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-alpine-3.12.0-x86_64 --zoom 1.3 --dest-dir output ./src/yh_resume.pdf index.html
             break
             ;;
         *) echo "無效的選項 $REPLY";;

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euxo pipefail
 
 #clean none tag images
 # docker rmi $(docker images --filter "dangling=true" -q --no-trunc)

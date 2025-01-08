@@ -153,10 +153,9 @@
   {System/DevOps Engineering}{Nov. 2023 -- Dec. 2024}
   {Mending Technology CO., LTD.}{}  
   \resumeItemListStart
-    \resumeItem{Cloud Computing Operation: AWS, CloudFlare}
-    \resumeItem{Blockchain System Operation/Migration/Refactoring/Backup}    
-    \resumeItem{Infrastructure as Code with Pulumi}
-    \resumeItem{Automation with Ansible}
+    \resumeItem{Blockchain System Operation/Migration/Refactoring/Backup on AWS, On-premise with more than 200 EC2/EKS/VM nodes across development, test, staging and production environments.}
+    \resumeItem{Development Infrastructure as Code with Pulumi for AWS IAM/EC2/RDS/Route53...etc}
+    \resumeItem{Development Automation with Ansible for EC2 initialization, Java apps with docker-compose...etc}
     \resumeItem{Building Pipelines with Gitlab runners}
     \resumeItem{Python, Bash shell script}
   \resumeItemListEnd
@@ -182,19 +181,23 @@
 
     \resumeSubHeadingListStart
     \resumeProjectHeading
-          {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
-          \resumeItemListStart            
-            \resumeItem{Because of the \textbf{data loss of our third-party monitoring API}  when testing with My automation teammate's API wrapper, I need to develope a \textbf{crontab task} with \textbf{Python} under \textbf{Server-side} to extract data on the third-party network monitor dashboard, transform those data, load these data to our MariaDB Database as our grafana datasource.}
-            \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
-          \resumeItemListEnd          
+        {\textbf{boce-crawler}} {Apr. 2022 -- Jun. 2022}
+        \resumeItemListStart
+          \resumeItem{Building a crontab task based on \textbf{Python, Selenium, pandas, SQLAlchemy, MariaDB...and so many Languages \& Tools} to extract network metrics from 3rd-party website and transform, load these data to MariaDB as Grafana datasource.}
+          \resumeItem{Because of the \textbf{data loss of our 3rd-party network monitoring API}  when testing with My automation teammate's API wrapper.}
+          \resumeItem{Our crontab task keep running for 3 months before we find another 3rd-party network monitoring service.}
+          \resumeItem{ \textbf{Languages \& Tools}: crontab, Python, concurrent.futures, Requests, Beautiful Soup, Selenium, undetected-chromedriver, pandas, SQLAlchemy, docker, MariaDB, Grafana}
+        \resumeItemListEnd          
     \resumeSubHeadingListEnd
 
     \resumeSubHeadingListStart
     \resumeProjectHeading
         {\textbf{Building Pipelines with Gitlab runners}} {Dec. 2024 -- Apr. 2024}
         \resumeItemListStart
-          \resumeItem{Building a CI pipeline based on \textbf{gitlab runner} to make Java Developers working better with their codes.}
+          \resumeItem{Building a CI pipeline based on \textbf{Python, Bash, gitlab runner...and so many Languages \& Tools} to make Java Developers working better with their codes.}
           \resumeItem{We have these stages: build code, scan code, build image, push image, deploy to k8s.}
+          \resumeItem{The pipeline validation process, from Maven build to Docker push, was completed within approximately 3 minutes.}
+          \resumeItem{Deployment to the EKS testing environment took less than 5 minutes in total, with room for further optimization.}
           \resumeItem{ \textbf{Languages \& Tools}: Python, Bash, Yaml, JSON, Gitlab, Gitlab Runner, Maven, kubectl, Docker}
         \resumeItemListEnd          
     \resumeSubHeadingListEnd

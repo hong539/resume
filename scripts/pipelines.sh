@@ -1,14 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euxo pipefail
 
-# uncomment for debug
-# set -x
+BASE_DIR=$(pwd)
 
-BASE_DIR=$(pwd)/scripts
+echo $BASE_DIR
 
 # generate *.pdf from *.tex
-bash $BASE_DIR/make_pdf.sh
+bash $BASE_DIR/scripts/make_pdf.sh
 # generate *.html from *.pdf
 # build docker image with *.html
-echo "2" | bash "$BASE_DIR/build.sh"
+echo "2" | bash "$BASE_DIR/scripts/build.sh"
 # start docker image with *.html
-bash $BASE_DIR/start.sh
+bash $BASE_DIR/scripts/start.sh

@@ -23,6 +23,7 @@ My resume generated from *.tex file to request a job.
 * Install the CLI prerequisites
 * generate *.pdf from *.tex
 * generate *.html from *.pdf
+* deploy docker with new images
 
 ```shell
 bash scripts/pipelines.sh
