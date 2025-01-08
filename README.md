@@ -12,6 +12,7 @@ My resume generated from *.tex file to request a job.
 
 ## to do list
 
+* CI/CD pipelines for building docker images from generating *.html, deploy to any docker engine host.
 * How to show projects date?
 ~~* pdf2htmlEX (generate *.html from *.pdf)~~
 * parse pdf with Python
