@@ -19,16 +19,22 @@ My resume generated from *.tex file to request a job.
 ~~* pipe text to html with some generator or render to outout html and related files~~
 * automation for generating *.html, add html tags, cp to github pages
 
-## quick start
+## workflows/pipelines
 
-* Install the CLI prerequisites
+* Install the CLI prerequisites on your localhost
+* Git clone this repo on your localhost
+* manual edit src/*.tex
 * generate *.pdf from *.tex
 * generate *.html from *.pdf
 * deploy docker with new images
 
+## quick start
+
 ```shell
 bash scripts/pipelines.sh
 ```
+
+## development
 
 ```shell
 # Debian / Ubuntu
