@@ -12,12 +12,9 @@ My resume generated from *.tex file to request a job.
 
 ## to do list
 
-* CI/CD pipelines for building docker images from generating *.html, deploy to any docker engine host.
-* How to show projects date?
 ~~* pdf2htmlEX (generate *.html from *.pdf)~~
-* parse pdf with Python
-~~* pipe text to html with some generator or render to outout html and related files~~
-* automation for generating *.html, add html tags, cp to github pages
+* refactoring output from pdf2htmlEX with React Web framework
+
 
 ## workflows/pipelines
 
