@@ -1,4 +1,4 @@
-FROM nginx:mainline-alpine3.18-slim
+FROM nginx:mainline-alpine3.20-slim
 
 COPY /output /usr/share/nginx/html
 
