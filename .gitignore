@@ -15,3 +15,7 @@
 *.synctex.gz
 *.xdv
 *.dvi
+
+# Added by cargo
+
+/target
