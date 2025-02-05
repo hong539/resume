@@ -12,11 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Resume - YH Huang",
+  title: "YHH Resume",
   description: "Yung-Hung Huang's Resume Page",
-  icons: {
-    icon: "/favicon.ico", // 確保 Next.js 找得到 favicon
-  },  
 };
 
 export default function RootLayout({ children }) {
