@@ -10,8 +10,8 @@ bash $BASE_DIR/scripts/make_pdf.sh
 # generate *.html from *.pdf
 # build docker image with *.html
 # separated files html/css/js/...etc
-echo "1" | bash "$BASE_DIR/scripts/build.sh"
+# echo "1" | bash "$BASE_DIR/scripts/build.sh"
 # all in one html
-# echo "2" | bash "$BASE_DIR/scripts/build.sh"
+echo "2" | bash "$BASE_DIR/scripts/build.sh"
 # start docker image with *.html
 bash $BASE_DIR/scripts/start.sh
