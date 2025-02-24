@@ -12,8 +12,9 @@ My resume generated from *.tex file to request a job.
 
 ## to do list
 
+  * integration with CI/CD pipelines with GitHub Actions/Jenkins/ArgoCD...etc
 ~~* pdf2htmlEX (generate *.html from *.pdf)~~
-* refactoring output from pdf2htmlEX with React Web framework
+~~* refactoring output from pdf2htmlEX with React+Next.js Web framework~~
 
 
 ## workflows/pipelines
@@ -46,14 +47,14 @@ brew install mactex
 sudo tlmgr update --self
 ```
 
-* [Python: Usage with pyenv+poetry](https://github.com/hong539/setup_dev_environment/tree/main/programing_languages/python#usage-with-pyenvpoetry)
+* [Python: Usage with uv](https://docs.astral.sh/uv/)
 * [how-to-extract-text-from-a-pdf-file](https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file)
 * [pypdf](https://github.com/py-pdf/pypdf)
 
 * parser with Python
 
 ```shell
-poetry add pypdf
+uv add pypdf
 ```
 
 * build *.tex to output pdf with latexmk
