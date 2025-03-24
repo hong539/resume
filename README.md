@@ -2,7 +2,47 @@
 
 My resume generated from *.tex file to request a job.
 
-## Guides/Tips..etc
+## quick start
+
+*  Nginx + pdf2htmlex bundled page output(html/css/javascript all in one)
+
+```shell
+git clone git@github.com:hong539/resume.git
+
+cd resume
+
+vim src/yh_resume.tex
+
+bash scripts/pipelines.sh
+```
+
+## Project workflows/ CI/CD pipelines
+
+* Nginx + pdf2htmlex bundled page output(html/css/javascript all in one)
+  * Install the CLI prerequisites on your localhost
+  * Git clone this repo on your localhost
+  * manual edit src/*.tex
+  * generate *.pdf from *.tex
+  * generate *.html from *.pdf
+  * deploy with docker images
+
+* node.js + react.js single-page-cv app with pdf output
+  * Install the CLI prerequisites on your localhost
+  * Git clone this repo on your localhost
+  * manual edit src/*.tex
+  * generate *.pdf from *.tex
+  * mv *.pdf to single-page-cv/public
+  * devops under single-page-cv with next dev server
+  * deploy with docker images
+
+## to do list
+
+* Compare Nginx + pdf2htmlex bundled page output(html/css/javascript all in one) VS node.js + react.js single-page-cv app with pdf output
+* integration with CI/CD pipelines with GitHub Actions/Jenkins/ArgoCD...etc
+~~* pdf2htmlEX (generate *.html from *.pdf)~~
+~~* refactoring output from pdf2htmlEX with React+Next.js Web framework~~
+
+## Guides/Tips/misc..etc
 
 * LaTex «Lah-tech» or «Lay-tech»
 * [LaTex project/About](https://www.latex-project.org/about/)
@@ -10,29 +50,7 @@ My resume generated from *.tex file to request a job.
 * [pdf2htmlEX/wiki/Command-Line-Options](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Command-Line-Options)
 * [kmpg: a book could be generated from soruce with TeXLive toolchain](https://github.com/sysprog21/lkmpg)
 
-## to do list
-
-  * integration with CI/CD pipelines with GitHub Actions/Jenkins/ArgoCD...etc
-~~* pdf2htmlEX (generate *.html from *.pdf)~~
-~~* refactoring output from pdf2htmlEX with React+Next.js Web framework~~
-
-
-## workflows/pipelines
-
-* Install the CLI prerequisites on your localhost
-* Git clone this repo on your localhost
-* manual edit src/*.tex
-* generate *.pdf from *.tex
-* generate *.html from *.pdf
-* deploy docker with new images
-
-## quick start
-
-```shell
-bash scripts/pipelines.sh
-```
-
-## development
+## development notes
 
 ```shell
 # Debian / Ubuntu
