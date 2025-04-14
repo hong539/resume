@@ -1,19 +1,29 @@
 # resume
 
 My resume generated from *.tex file to request a job.
+LaTeX template for my personal resume forked from [jakegut / resume](https://github.com/jakegut/resume)
 
 ## quick start
 
 *  Nginx + pdf2htmlex bundled page output(html/css/javascript all in one)
 
 ```shell
+#clone repo to your work dir
 git clone git@github.com:hong539/resume.git
 
 cd resume
 
+#edit *.tex
 vim src/yh_resume.tex
 
+#output and packge output/** to docker image and run a docker container at localhost
 bash scripts/pipelines.sh
+
+#test robots
+uv run test_robots.py
+
+#or
+python3 test_robots.py
 ```
 
 ## Project workflows/ CI/CD pipelines
