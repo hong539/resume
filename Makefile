@@ -1,6 +1,6 @@
 vpath %.tex src/
 LATEXMK = latexmk
-LATEXMK_FLAGS = -pdf -pdflatex="pdflatex -interaction=nonstopmode"
+LATEXMK_FLAGS = -f -pdf -pdflatex="pdflatex -interaction=nonstopmode"
 DESTDIR = src
 
 .PHONY: all clean

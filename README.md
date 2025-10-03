@@ -5,6 +5,21 @@ LaTeX template for my personal resume forked from [jakegut / resume](https://git
 
 ## quick start
 
+* requirement packages
+
+```shell
+# Debian / Ubuntu
+sudo apt install make texlive-full
+
+# Arch / Manjaro
+sudo pacman -Syy
+sudo pacman -S make texlive-most texlive-bin
+
+# macOS
+brew install mactex
+sudo tlmgr update --self
+```
+
 *  Nginx + pdf2htmlex bundled page output(html/css/javascript all in one)
 
 ```shell
@@ -62,19 +77,6 @@ python3 test_robots.py
 
 ## development notes
 
-```shell
-# Debian / Ubuntu
-sudo apt install make texlive-full
-
-# Arch / Manjaro
-sudo pacman -Syy
-sudo pacman -S make texlive-most texlive-bin
-
-# macOS
-brew install mactex
-sudo tlmgr update --self
-```
-
 * [Python: Usage with uv](https://docs.astral.sh/uv/)
 * [how-to-extract-text-from-a-pdf-file](https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file)
 * [pypdf](https://github.com/py-pdf/pypdf)
@@ -92,7 +94,7 @@ uv add pypdf
 which latexmk
 latexmk --version
 
-cd src/resume/
+cd src/
 latexmk yh_resume.tex
 ```
 
