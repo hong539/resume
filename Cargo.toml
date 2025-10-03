@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+image = "0.25.8"
+qrcode = "0.14.1"
 regex = "1.11.1"
