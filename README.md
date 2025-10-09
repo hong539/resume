@@ -24,7 +24,7 @@ sudo tlmgr update --self
 
 ```shell
 #clone repo to your work dir
-git clone git@github.com:hong539/resume.git
+git clone git@github.com:blackdesert575/resume.git
 
 cd resume
 
